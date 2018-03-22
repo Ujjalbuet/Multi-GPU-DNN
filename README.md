@@ -19,11 +19,11 @@ The project can either be compiled with CMake (cross-platform) or Visual Studio.
 
 To compile with CMake, run the following commands:
 ```bash
-~: $ cd cudnn-training/
-~/cudnn-training: $ mkdir build
-~/cudnn-training: $ cd build/
-~/cudnn-training/build: $ cmake ..
-~/cudnn-training/build: $ make
+~: $ cd Multi-GPU-DNN:/
+~/Multi-GPU-DNN:$ mkdir build
+~/ Multi-GPU-DNN:$ cd build/
+~/Multi-GPU-DNN/build: $ cmake ..
+~/Multi-GPU-DNN/build: $ make
 ```
 
 If compiling under linux, make sure to either set the ```CUDNN_PATH``` environment variable to the path CUDNN is installed to, or extract CUDNN to the CUDA toolkit path.
